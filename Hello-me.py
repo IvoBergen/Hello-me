@@ -82,9 +82,9 @@ def tekst8():
     print("You go to sleep. After what you think are a few hours you hear some rumbling in the bushes. You get out of your makeshift hut and look around, you don’t see anything at first but you see a tiny hat pointing above the bushes. Do you shout at the thing in the bushes or do you hide somewhere else. Do you shout (yes) or hide (no)?")
     choice = input('Yes or No: ')
     if choice in Yes:
-        badending1()
-    elif choice in No:
         goodending1()
+    elif choice in No:
+        badending1()
     
 def tekst9():
     print(' Your not sleepy enough to sleep so you stay up for a little longer. When you are still awake you make a sharp stick, because you had nothing else to do. You start to get sleepy and fall asleep in your hut. Sometime later you wake up because you thought you heard something and you see a figurine standing outside your hut! Do you call out to the figurine or fight it with your stick? Do you fight (yes) or call out to (no)?')
