@@ -269,3 +269,5 @@ def goodending2_2():
         beforewestart()
     elif choice in No:
         print('Goodbye!')
+
+beforewestart()
