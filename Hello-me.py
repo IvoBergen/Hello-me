@@ -22,7 +22,11 @@ def intro():
         tekst10()
 
 def tekst1():
-    print("You try to communicate with the creature after you walk closer you see that it is small at least smaller than a human. It looks like nothing you have ever seen before, or maybe a little bit like and dwarf you have read about in books. When you are a two meters away from the creature you say Hi the creature turn around and you see its face it is covered in food it looks like he was eating tomato’s and some other vegetables. The creature looks at you with a terrified face and goes: wh-what are you? I have never seen such a species before. You tell the creature a short story about how you got to the place after you finish your story you ask the creature if it had a name and were you are. The creature responds with: m-my name is Jennifer and you are in the land of the lost it is a world beneath the surface of the earth. You were shocked to find out that you are inside the earth… after a little while you ask if Jennifer if she has a place to live. She responds with yes I do! It is not to far away from here, would you like to come over to maybe figure out how to get back up to the surface… Are you going with Jennifer to her house Yes or No?")
+    Linesstring = """You try to communicate with the creature after you walk closer you see that it is small at least smaller than a human. It looks like nothing you have ever seen before, or maybe a little bit like and dwarf you have read about in books. 
+    When you are a two meters away from the creature you say Hi the creature turn around and you see its face it is covered in food it looks like he was eating tomato’s and some other vegetables. The creature looks at you with a terrified face and goes: wh-what are you? I have never seen such a species before. 
+    You tell the creature a short story about how you got to the place after you finish your story you ask the creature if it had a name and were you are. The creature responds with: m-my name is Jennifer and you are in the land of the lost it is a world beneath the surface of the earth. 
+    You were shocked to find out that you are inside the earth… after a little while you ask if Jennifer if she has a place to live. She responds with yes I do! It is not to far away from here, would you like to come over to maybe figure out how to get back up to the surface… Are you going with Jennifer to her house Yes or No?"""
+    print(Linesstring)
     choice = input('Yes or No: ')
     if choice in Yes:
         tekst5()
@@ -30,7 +34,9 @@ def tekst1():
         tekst2()
 
 def tekst2():
-    print("After rejecting Jennifer’s offer you ask if there is anything dangerous in this world? Jennifer responds with a nervous reaction: Why do you think this is the most peaceful place to ever live! I never want to leave from this place. You doubt Jennifer for a split second but you don’t think to much of it. You ask if Jennifer knows a good place to set up a camp and she responds with telling you to go to the west because to the east there are a lot of mountains to climb and that is not useful while travelling. Do you go west (yes) or east (no)?")
+    linestring = """After rejecting Jennifer’s offer you ask if there is anything dangerous in this world? Jennifer responds with a nervous reaction: Why do you think this is the most peaceful place to ever live! I never want to leave from this place. 
+    You doubt Jennifer for a split second but you don’t think to much of it. You ask if Jennifer knows a good place to set up a camp and she responds with telling you to go to the west because to the east there are a lot of mountains to climb and that is not useful while travelling. Do you go west (yes) or east (no)?"""
+    print(linestring)
     choice = input('Yes or No: ')
     if choice in Yes:
         tekst6()
@@ -50,7 +56,10 @@ def tekst4():
         print('Goodbye!')
     
 def tekst5():
-    print("You decided to join Jennifer on her business and then go visit her house. After a little while of walking you see a small house build in to a weird looking tree. You enter the small house while almost bumping your head in the entrance. Jennifer says: Make yourself at home. I don’t get visitors very often so I hope you don’t mind the mess. You don’t mind because your apartment has always been such a mess, you notice something in the corner of the room… It look like some bones from a creature, after inspecting the bones a little bit more you see that they are human bones! You were surprised and started to doubt what Jennifer’s goal is with you. You want to leave as soon as possible, so you ask Jennifer where is a good place to setup a base camp. Jennifer knows a good place to set up a camp and she responds with telling you to go to the west because to the east there are a lot of mountains to climb and that is not useful while travelling. Do you go west (yes) or east (no)?")
+    linesting = """You decided to join Jennifer on her business and then go visit her house. After a little while of walking you see a small house build in to a weird looking tree. You enter the small house while almost bumping your head in the entrance. 
+    Jennifer says: Make yourself at home. I don’t get visitors very often so I hope you don’t mind the mess. You don’t mind because your apartment has always been such a mess, you notice something in the corner of the room… It look like some bones from a creature, after inspecting the bones a little bit more you see that they are human bones! You were surprised and started to doubt what Jennifer’s goal is with you. 
+    You want to leave as soon as possible, so you ask Jennifer where is a good place to setup a base camp. Jennifer knows a good place to set up a camp and she responds with telling you to go to the west because to the east there are a lot of mountains to climb and that is not useful while travelling. Do you go west (yes) or east (no)?"""
+    print(linesting)
     choice = input('Yes or No:')
     if choice in Yes:
         tekst6()
@@ -111,7 +120,10 @@ def neutralending1():
         print('Goodbye!')
     
 def goodending1():
-    print("You call out to the thing outside your tent with hello and are you friendly. The thing responds with: ‘Yes we are, are you weaponed come out with you hands in the air!’ You doubt them for a second but you go outside anyways because maybe they can help you? You get outside and you see two armored man with guns and a flashlight standing right in front of you. You are so happy to see people after such a long time and ask them if they know a way out of this place, the men know a way out so they bring you to a elevator that sends you in to a lab of some sorts where there are multiple scientist waiting for you to ask some questions. After a few days you are brought home and fall right asleep on the couch.")
+    linestring = """You call out to the thing outside your tent with hello and are you friendly. The thing responds with: ‘Yes we are, are you weaponed come out with you hands in the air!’ You doubt them for a second but you go outside anyways because maybe they can help you? 
+    You get outside and you see two armored man with guns and a flashlight standing right in front of you. You are so happy to see people after such a long time and ask them if they know a way out of this place, the men know a way out so they bring you to a elevator that sends you in to a lab of some sorts where there are multiple scientist waiting for you to ask some questions. 
+    After a few days you are brought home and fall right asleep on the couch."""
+    print(linestring)
     choice = input('Want to play again? Yes or No: ')
     if choice in Yes:
         beforewestart()
